@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="password" value="manager"/>
+    <parameter name="URl" value="http://desktop-8p6shcq/login.do"/>
+    <parameter name="Browser" value="firefox"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="testNGExecutionPackage.SelectTest">
+        <methods>
+          <include name="selectTestMethod"/>
+        </methods>
+      </class> <!-- testNGExecutionPackage.SelectTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="password" value="manager"/>
+    <parameter name="URl" value="http://desktop-8p6shcq/login.do"/>
+    <parameter name="Browser" value="firefox"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="testNGExecutionPackage.SelectTest">
+        <methods>
+          <include name="selectTestMethod"/>
+        </methods>
+      </class> <!-- testNGExecutionPackage.SelectTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
