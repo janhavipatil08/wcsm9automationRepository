@@ -13,7 +13,7 @@ public class Flag5 {
   {
 	  Reporter.log("Method2 for user Creation", true);
   }
-  @Test(description = "logout performed", dependsOnMethods ="createUser", enabled = false)
+  @Test(description = "logout performed", dependsOnMethods ="createUser", enabled = false,alwaysRun= true)
   public void logoutMethod()
   {
 	  Reporter.log("Method3 from logout method", true);
