@@ -1,127 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[ft1]]>
+      <![CDATA[launch the browser]]>
     </line>
     <line>
-      <![CDATA[ft2]]>
-    </line>
-    <line>
-      <![CDATA[ft3]]>
-    </line>
-    <line>
-      <![CDATA[ft4]]>
-    </line>
-    <line>
-      <![CDATA[ft5]]>
-    </line>
-    <line>
-      <![CDATA[it1]]>
-    </line>
-    <line>
-      <![CDATA[it2]]>
-    </line>
-    <line>
-      <![CDATA[it3]]>
-    </line>
-    <line>
-      <![CDATA[it4]]>
-    </line>
-    <line>
-      <![CDATA[it5]]>
+      <![CDATA[launch the application by using URL]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-12-04T12:24:30 IST" name="Suite" finished-at="2023-12-04T12:24:30 IST" duration-ms="229">
+  <suite started-at="2023-12-05T12:33:25 IST" name="Default suite" finished-at="2023-12-05T12:33:25 IST" duration-ms="99">
     <groups>
-      <group name="integration test case">
-        <method signature="Flag6.it1()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" name="it1" class="testNGAnnotations_Flags.Flag6"/>
-        <method signature="Flag6.it2()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" name="it2" class="testNGAnnotations_Flags.Flag6"/>
-        <method signature="Flag6.it3()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" name="it3" class="testNGAnnotations_Flags.Flag6"/>
-        <method signature="Flag6.it4()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" name="it4" class="testNGAnnotations_Flags.Flag6"/>
-        <method signature="Flag6.it5()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" name="it5" class="testNGAnnotations_Flags.Flag6"/>
-      </group> <!-- integration test case -->
-      <group name="functional test case">
-        <method signature="Flag6.ft1()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" name="ft1" class="testNGAnnotations_Flags.Flag6"/>
-        <method signature="Flag6.ft2()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" name="ft2" class="testNGAnnotations_Flags.Flag6"/>
-        <method signature="Flag6.ft3()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" name="ft3" class="testNGAnnotations_Flags.Flag6"/>
-        <method signature="Flag6.ft4()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" name="ft4" class="testNGAnnotations_Flags.Flag6"/>
-        <method signature="Flag6.ft5()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" name="ft5" class="testNGAnnotations_Flags.Flag6"/>
-      </group> <!-- functional test case -->
     </groups>
-    <test started-at="2023-12-04T12:24:30 IST" name="Test" finished-at="2023-12-04T12:24:30 IST" duration-ms="229">
-      <class name="testNGAnnotations_Flags.Flag6">
-        <test-method signature="ft1()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" started-at="2023-12-04T12:24:30 IST" name="ft1" finished-at="2023-12-04T12:24:30 IST" duration-ms="17" status="PASS">
+    <test started-at="2023-12-05T12:33:25 IST" name="Default test" finished-at="2023-12-05T12:33:25 IST" duration-ms="99">
+      <class name="testNGAssertions.AssrtMethod">
+        <test-method signature="assertMethod()[pri:0, instance:testNGAssertions.AssrtMethod@66f57048]" started-at="2023-12-05T12:33:25 IST" name="assertMethod" finished-at="2023-12-05T12:33:25 IST" duration-ms="18" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[ft1]]>
+              <![CDATA[launch the browser]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- ft1 -->
-        <test-method signature="ft2()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" started-at="2023-12-04T12:24:30 IST" name="ft2" finished-at="2023-12-04T12:24:30 IST" duration-ms="4" status="PASS">
-          <reporter-output>
             <line>
-              <![CDATA[ft2]]>
+              <![CDATA[launch the application by using URL]]>
             </line>
           </reporter-output>
-        </test-method> <!-- ft2 -->
-        <test-method signature="ft3()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" started-at="2023-12-04T12:24:30 IST" name="ft3" finished-at="2023-12-04T12:24:30 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ft3]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ft3 -->
-        <test-method signature="ft4()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" started-at="2023-12-04T12:24:30 IST" name="ft4" finished-at="2023-12-04T12:24:30 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ft4]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ft4 -->
-        <test-method signature="ft5()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" started-at="2023-12-04T12:24:30 IST" name="ft5" finished-at="2023-12-04T12:24:30 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ft5]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ft5 -->
-        <test-method signature="it1()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" started-at="2023-12-04T12:24:30 IST" name="it1" finished-at="2023-12-04T12:24:30 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[it1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- it1 -->
-        <test-method signature="it2()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" started-at="2023-12-04T12:24:30 IST" name="it2" finished-at="2023-12-04T12:24:30 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[it2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- it2 -->
-        <test-method signature="it3()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" started-at="2023-12-04T12:24:30 IST" name="it3" finished-at="2023-12-04T12:24:30 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[it3]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- it3 -->
-        <test-method signature="it4()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" started-at="2023-12-04T12:24:30 IST" name="it4" finished-at="2023-12-04T12:24:30 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[it4]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- it4 -->
-        <test-method signature="it5()[pri:0, instance:testNGAnnotations_Flags.Flag6@27f981c6]" started-at="2023-12-04T12:24:30 IST" name="it5" finished-at="2023-12-04T12:24:30 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[it5]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- it5 -->
-      </class> <!-- testNGAnnotations_Flags.Flag6 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- assertMethod -->
+      </class> <!-- testNGAssertions.AssrtMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
